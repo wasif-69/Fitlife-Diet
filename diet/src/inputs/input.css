@@ -1,0 +1,67 @@
+/* DietForm.css */
+.diet-form-section {
+  background-color: #bdd7e9;
+  color: #ffffff;
+  padding: 60px 20px;
+  box-sizing: border-box;
+  width: 100vw;
+}
+
+.diet-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.diet-form-container h2 {
+  text-align: center;
+  color:#3498db;
+  margin-bottom: 30px;
+}
+
+.diet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.diet-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.diet-form input,
+.diet-form select {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  font-size: 1rem;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+.diet-form span {
+  font-size: 0.9rem;
+  color:#3498db;
+  margin-top: 4px;
+}
+
+.submit-btn {
+  background-color: #3498db;
+  color: #101820;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ffffff;
+}

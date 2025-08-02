@@ -1,0 +1,38 @@
+.diet-plan-section {
+  background-color: #3498db;
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  background-color: white;
+  color: #3498db;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.meal-section h3 {
+  margin-top: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.meal-section ul {
+  padding-left: 1.2rem;
+  list-style: square;
+  margin-bottom: 1rem;
+}
