@@ -1,7 +1,7 @@
 import React,{useContext} from 'react';
 import { FaDumbbell } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import './Header.css';
+import './header.css';
 import { ValueContext } from '../ValueContext';
 
 const Header = () => {
