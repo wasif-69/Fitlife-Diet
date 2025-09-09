@@ -7,7 +7,7 @@ import numpy as np
 app=Flask(__name__)
 CORS(app)
 
-calories_generator_model=joblib.load("knn_model.pkl")
+calories_generator_model=joblib.load("Knn_model.pkl")
 diet_type_model=joblib.load("RFC_model.pkl")
 diet_number_model=joblib.load("SVC_model.pkl")
 
