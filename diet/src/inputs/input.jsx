@@ -41,7 +41,7 @@ const DietForm = () => {
   const api_request = () =>{
     setValue(prev => prev + 1)
 
-    fetch('http://127.0.0.1:5000/request', {
+    fetch('https://fitlife-diet-6f0a.onrender.com/request', {
     method: 'POST',
     headers: {
     'Content-Type': 'application/json'},
