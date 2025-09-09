@@ -1,5 +1,5 @@
 import React from 'react';
-import './health.css';
+import './Health.css';
  import health from '../assets/health.png';
 
 const HealthCareDiet = () => {
