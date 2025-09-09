@@ -13,7 +13,7 @@ diet_number_model=joblib.load("SVC_model.pkl")
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    return "Hello world"
 
 
 @app.route('/request', methods=["POST"])
